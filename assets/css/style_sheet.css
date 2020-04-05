@@ -1,0 +1,344 @@
+/* global css start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+/* global css end */
+/* header part start */
+header{
+    border-bottom: 2px solid #74a8be14;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+a.navbar-brand {
+    margin: -1.5% 0px 0px 18%;
+}
+a.navbar-brand img{
+    width: 60px;
+}
+nav.navbar.navbar-expand-lg {
+    margin: 25px 0px 0px !important;
+    padding-bottom: 0px !important;
+}
+.nav-link {
+    margin-left: 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 40px;
+}
+.nav-link:hover{
+    border: 0px solid #fff;
+    border-bottom-width: 2px;
+    color: #cabebe;
+}
+.nav-link.active {
+    border: 0px solid #fff;
+    border-bottom-width: 2px;
+}
+
+.search-box{
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+.search-box input{
+    color: #626262;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.search-box i{
+    color: #626262;
+    cursor: pointer;
+}
+/* header part end */
+/* banner part start */
+#banner{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+#banner .banner-text{
+    margin-top: 30%;
+}
+#banner .banner-text h2{
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.6;
+}
+#banner .banner-text .banner-btn .cta-btn-1,.global-btn{
+    background: #8824cd;
+    padding: 12px 75px;
+    border: 1px solid #8824cd;
+    border-radius: 30px;
+    box-shadow: 0.5px -0.8px 0px 0px #fff;
+    margin: 25px 0px 30px;
+}
+#banner .banner-text .banner-btn .cta-btn-1 a{
+    color: #fff;
+    font-size: 15px;
+}
+#banner .banner-text p{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+/* banner part end*/
+/* feature part start */
+#feature{
+    padding: 70px 0px 50px;
+    background: #2e3b4e;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+#feature .feature-box{
+    margin-bottom: 50px;
+}
+#feature .feature-box h4{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+#feature .feature-box p{
+    font-size: 16px;
+    padding-left: 100px;
+}
+.shape img{
+    position: absolute;
+    position: absolute;
+    bottom: -36px;
+    left: 918px;
+}
+/* feature part end */
+/* Wicked & whack part start  */
+#Wicked-whack{
+    padding: 150px 0px;
+    width: 100%;
+    height: 540px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Wicked-whack .Wicked-whack-box{
+    color: #fff;
+}
+#Wicked-whack .Wicked-whack-box h2{
+    font-weight: 300;
+    font-size: 45px;
+    padding-left: 70px;
+}
+#Wicked-whack .Wicked-whack-box p{
+    font-size: 15px;
+    padding: 0px 280px 0px 330px;
+    line-height: 2;
+    margin: 26px;
+}
+#Wicked-whack .Wicked-whack-box .cta-btn-2{
+    margin-left: 45px;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 15px 90px;
+}
+#Wicked-whack .Wicked-whack-box .cta-btn-2 a{
+    color: #d54c63;
+    font-size: 18px;
+}
+/* Wicked & whack part end  */
+/* about part start */
+#about{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.container-fluid{
+    padding: 0;
+}
+#about .about-img{
+    width: 630px;
+    height: 595px;
+    float: left;
+    display: inline-block;
+}
+#about .about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -185px -68px;
+}
+#about .about-text{
+    width: 1320px;
+    height: 360px;
+    padding: 3% 0% 0% 36%;
+}
+#about .about-text h6{
+    font-size: 22px;
+    font-weight: 700;
+}
+#about .about-text p.first-part{
+    font-size: 19px;
+    padding: 20px 0px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+#about .about-text p.sec-part{
+    font-size: 15px;
+    font-weight: 300;
+}
+/* about part end */
+/* experience part start */
+#experience{
+    padding: 70px 0px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+#experience::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: #521a66;
+    opacity: .7;
+    left: 0;
+    bottom: 0;
+}
+#experience .experience-text{
+    margin-top: 100px;
+    color: #fff;
+}
+#experience .experience-text h4{
+    font-weight: 300;
+    font-size: 40px;
+}
+#experience .experience-text p.first{
+    color: #a87bb7;
+    font-size: 20px;
+    padding: 20px 170px 0px;
+}
+#experience .experience-text p.sec{
+    font-size: 12px;
+}
+#experience .experience-text .cta-btn-3 a{
+    color: #fff;
+}
+/* experience part end */
+/* feature artical part start */
+#artical{
+    width: 100%;
+    height: 670px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+}
+#artical .artical-text{
+    color: #fff;
+    margin-top: 260px;
+}
+#artical .artical-text .Photography-box{
+    background: transparent;
+    border: 2px solid #fff;
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 39px;
+    cursor: pointer;
+}
+#artical .artical-text .Photography-box p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#artical .artical-text h2{
+    margin: 25px 0px;
+    font-size: 40px;
+    line-height: 1.4;
+}
+#artical .artical-text .author-img img{
+    float: left;
+    margin-right: 20px;
+}
+#artical .artical-text .author-img p{
+    padding-top: 11px;
+}
+/* feature artical part end */
+/* about-2 part start */
+#about-2 .about-text{
+    margin-top: 100px;
+    width: 662px;
+    margin-left: 21%;
+    float: left;
+}
+#about-2 .about-text h6{
+    font-size: 22px;
+    font-weight: 700;
+}
+#about-2 .about-text p.first-part{
+    font-size: 19px;
+    padding: 20px 0px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+#about-2 .about-text p.sec-part{
+    font-size: 15px;
+    font-weight: 300;
+}
+#about-2 .about-img-2 img{
+    display: flex;
+    margin-left: auto;
+}
+/* about-2 part end */
+/* contact part start */
+#contact{
+    padding: 100px 0px;
+    background-color: #e7526b;
+}
+#contact .contact-text h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+#contact .contact-text p{
+    font-size: 15px;
+    color: #fff;
+    margin: 25px 0px;
+}
+#contact .contact-text a{
+    color: #fff;
+    text-decoration: underline;
+}
+/* contact part end */
+/* footer part start */
+footer{
+    padding: 70px 0px;
+    background-color: #2e3b4e;
+}
+.footer-text p{
+    font-size: 12px;
+    color: #fff;
+}
+/* footer part end */
